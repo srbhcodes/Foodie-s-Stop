@@ -1,0 +1,237 @@
+/* .header { */
+/* display: flex; */
+/* justify-content: space-between; did this to put the list in the end  */
+/* border: 1px solid black; */
+/* margin: 5px; */
+/* } */
+
+.header {
+  font-family: "Helvetica", sans-serif;
+
+  text-align: left;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  height: 100px;
+  padding: 10px 5px; /* adjust these values as needed */
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.header a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 0.9em;
+}
+
+.header a:hover {
+  color: #007bff;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-items {
+  padding: 0px 20px;
+  align-items: center; /* This will vertically align the items in the middle */
+  padding: 0px 20px;
+  display: flex;
+}
+
+.nav-items > ul {
+  font-size: 24px;
+  display: flex;
+  list-style-type: none; /* to remove the dots from the list  */
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 20px; /* to give space between list items  */
+}
+
+.res-container a {
+  text-decoration: none;
+}
+.res-container a:hover {
+  color: #0056b3;
+}
+
+/* .res-card {
+  width: 200px;
+  height: 400px;
+  margin: 5px;
+  background: grey;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.res-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+.res-card h4 {
+  margin: 0;
+  color: #333;
+  font-size: 1.2em;
+  font-family: "Helvetica", sans-serif;
+}
+
+.res-card h5 {
+  color: #333;
+  font-family: "Helvetica", sans-serif;
+} */
+
+.res-card {
+  width: 200px;
+  height: 400px;
+  margin: 5px;
+  background-color: #dde3ea; /* light gray */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px; /* reduced padding */
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.res-card:hover {
+  box-shadow: 0 4px 16px rgba(116, 116, 116, 0.2);
+  transform: translateY(-5px);
+}
+
+.res-card h4 {
+  margin: 0px;
+  color: #333;
+  font-size: 1.2em;
+  font-family: "Helvetica", sans-serif;
+}
+
+.res-card h5 {
+  color: #333;
+  font-family: "Helvetica", sans-serif;
+}
+
+.res-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.res-card a:hover {
+  color: #0056b3;
+}
+
+/* .search-btn {
+  border: none;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+.search-btn {
+  border: none;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.search-text {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; /* added border */
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1em;
+  outline: none; /* remove browser default outline */
+}
+
+.search-text:focus {
+  border-color: #007bff; /* change border color on focus */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* add a blue outline on focus */
+}
+
+.search-text:hover {
+  box-shadow: 0 4px 16px rgba(116, 116, 116, 0.2);
+}
+
+.res-logo {
+  width: 100%;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.filter-btn {
+  border: none;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #0056b3;
+}
+
+.shimmer-card {
+  width: 200px;
+  height: 300px;
+  margin: 5px;
+  background: grey;
+  padding: 5px;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter {
+  display: flex;
+}
+
+.search-btn {
+  margin: 10px;
+  cursor: pointer;
+  width: auto; /* adjust as needed */
+  height: 20px;
+}
+.button {
+  font-size: 0.9em;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

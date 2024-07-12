@@ -1,0 +1,190 @@
+.header {
+  text-align: left;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #eaeaea;
+  justify-content: space-between;
+  height: 100px;
+  margin: 5px 5px 20px;
+  padding: 10px 5px;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.header a {
+  color: #333;
+  margin: 0 15px;
+  font-size: .9em;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #007bff;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-items {
+  align-items: center;
+  padding: 0 20px;
+  display: flex;
+}
+
+.nav-items > ul {
+  font-size: 24px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 20px;
+  padding: 10px;
+}
+
+.res-container a {
+  text-decoration: none;
+}
+
+.res-container a:hover {
+  color: #0056b3;
+}
+
+.res-card {
+  background-color: #dde3ea;
+  border-radius: 10px;
+  width: 200px;
+  height: 400px;
+  margin: 5px 5px 20px;
+  padding: 15px;
+  transition: box-shadow .3s, transform .3s;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.res-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px #74747433;
+}
+
+.res-card h4 {
+  color: #333;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+.res-card h5 {
+  color: #333;
+  font-family: Helvetica, sans-serif;
+}
+
+.res-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.res-card a:hover {
+  color: #0056b3;
+}
+
+.search-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1em;
+  transition: background-color .3s;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.search-text {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.search-text:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px #007bff40;
+}
+
+.search-text:hover {
+  box-shadow: 0 4px 16px #74747433;
+}
+
+.res-logo {
+  width: 100%;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.filter-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1em;
+  transition: background-color .3s;
+}
+
+.filter-btn:hover {
+  background-color: #0056b3;
+}
+
+.shimmer-card {
+  background: gray;
+  width: 200px;
+  height: 300px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.shimmer-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.filter {
+  display: flex;
+}
+
+.search-btn {
+  cursor: pointer;
+  width: auto;
+  height: 20px;
+  margin: 10px;
+}
+
+.button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: .9em;
+  transition: background-color .3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+/*# sourceMappingURL=index.3431e429.css.map */
